@@ -1,15 +1,16 @@
-import { render } from "react-dom";
-import Movie from "./Movie";
+import { createRoot } from "react-dom/client";
+import Header from "./Header";
+import Theater from "./Theater";
 
 const App = () => {
   return (
-    <div>
-      <h1>ReelTimes</h1>
-      <Movie title="Movie 1" genre="action" />
-      <Movie title="Movie 2" genre="drama" />
-      <Movie title="Movie 3" genre="documentary" />
-    </div>
+    <>
+      <Header />
+      <Theater />
+    </>
   );
 };
 
-render(<App />, document.getElementById("root"));
+const container = document.getElementById("root");
+const root = createRoot(container as Element);
+root.render(<App />);
