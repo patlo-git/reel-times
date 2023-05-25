@@ -10,7 +10,6 @@
   ],
   "rules": {
     "react/react-in-jsx-scope": 0,
-    // turn on errors for missing imports
     "import/no-unresolved": "error"
   },
   "parser": "@typescript-eslint/parser",
