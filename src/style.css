@@ -48,14 +48,14 @@ body {
   height: 1.5rem;
 }
 
-.theater-wrapper {
+.theater-container {
   display: inline-block;
   /* border: 2px solid red; */
   max-width: 1152px;
   margin: 16px;
 }
 
-.title-container {
+.theater-name-wrapper {
   padding: .25rem 0;
   background-color: hsl(0, 0%, 75%);
   box-shadow:
@@ -63,15 +63,15 @@ body {
   ;
 }
 
-.title-container > h1 {
+.theater-name-wrapper > h1 {
   margin: auto auto auto 16px;
 }
 
-.movies-wrapper {
+.movies-container {
   display: flex;
 }
 
-.movies-container {
+.movies-wrapper {
   display: flex;
   margin: 8px;
   gap: 8px;

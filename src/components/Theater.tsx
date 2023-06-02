@@ -3,13 +3,13 @@ import { movies } from "../mocks/MovieDB";
 
 const Theater = () => {
   return (
-    <div className="theater-wrapper">
+    <div className="theater-container">
       <div>
-        <div className="title-container">
+        <div className="theater-name-wrapper">
           <h1>Theater</h1>
         </div>
-        <div className="movies-wrapper">
-          <div className="movies-container">
+        <div className="movies-container">
+          <div className="movies-wrapper">
             <>
               {movies.map((movie) => {
                 return (
