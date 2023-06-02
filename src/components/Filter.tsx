@@ -22,18 +22,20 @@ const FilterMenu = () => {
           <input type="range" id="range" name="range" min="1" max="1000" />
         </div>
         <div className="select-container">
-          <label htmlFor="theater-movie-view"></label>
-          <select id="theater-movie-view">
-            <option value="Theater">Theaters</option>
-            <option value="Movie">Movies</option>
-          </select>
+          <label htmlFor="theater-movie-view">
+            <select id="theater-movie-view">
+              <option value="Theater">Theaters</option>
+              <option value="Movie">Movies</option>
+            </select>
+          </label>
         </div>
         <div className="select-container">
-          <label htmlFor="list-map-view"></label>
-          <select id="list-map-view">
-            <option value="List">List View</option>
-            <option value="Map">Map View</option>
-          </select>
+          <label htmlFor="list-map-view">
+            <select id="list-map-view">
+              <option value="List">List View</option>
+              <option value="Map">Map View</option>
+            </select>
+          </label>
         </div>
       </form>
     </div>

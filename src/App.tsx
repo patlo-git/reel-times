@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
-import Header from "./Header";
-import Theater from "./Theater";
-import FilterMenu from "./Filter";
+import Header from "./components/Header";
+import Theater from "./components/Theater";
+import FilterMenu from "./components/Filter";
 
 const App = () => {
   return (

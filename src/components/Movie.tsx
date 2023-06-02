@@ -1,4 +1,6 @@
-const Movie = (props) => {
+import { MovieProps } from "../mocks/MovieDB";
+
+const Movie = (props: MovieProps) => {
   return (
     <div className="movie">
       <div className="movie-info">
