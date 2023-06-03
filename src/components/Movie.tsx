@@ -1,4 +1,5 @@
 import { MovieProps } from "../mocks/MovieDB";
+import { MovieTimesButtons } from "./MovieTimes";
 
 const Movie = (props: MovieProps) => {
   return (
@@ -10,13 +11,7 @@ const Movie = (props: MovieProps) => {
           {props.audio} | {props.review}
         </h3>
         <div className="times-wrapper">
-          <button>9:30a</button>
-          <button>11:45a</button>
-          <button>2:10p</button>
-          <button>4:30p</button>
-          <button>7:10p</button>
-          <button>9:45p</button>
-          <button>12:15a</button>
+          <MovieTimesButtons id={""} time={""} />
         </div>
       </div>
       <div className="movie-poster"></div>
