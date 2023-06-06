@@ -1,7 +1,12 @@
+import React from "react";
 import Movie from "./Movie";
-import { MOVIESINFO } from "../mocks/MovieDB";
+import { MovieProps } from "../mocks/MovieDB";
 
-const Theater = () => {
+interface TheaterProps {
+  movies: MovieProps[];
+}
+
+const Theater: React.FC<TheaterProps> = ({ movies }) => {
   return (
     <div className="theater-container">
       <div>
@@ -11,7 +16,7 @@ const Theater = () => {
         <div className="movies-container">
           <div className="movies-wrapper">
             <>
-              {MOVIESINFO.map((movie) => {
+              {movies.map((movie) => {
                 return (
                   <Movie
                     key={movie.id}
