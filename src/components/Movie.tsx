@@ -11,7 +11,11 @@ const Movie = (props: MovieProps) => {
           {props.audio} | {props.review}
         </h3>
         <div className="times-wrapper">
-          <MovieTimesButtons id={""} time={""} />
+          <>
+            {props.times.map((time: string) => {
+              return <MovieTimesButtons key={props.id} time={time} />;
+            })}
+          </>
         </div>
       </div>
       <div className="movie-poster"></div>

@@ -1,5 +1,5 @@
 import Movie from "./Movie";
-import { movies } from "../mocks/MovieDB";
+import { MOVIESINFO } from "../mocks/MovieDB";
 
 const Theater = () => {
   return (
@@ -11,7 +11,7 @@ const Theater = () => {
         <div className="movies-container">
           <div className="movies-wrapper">
             <>
-              {movies.map((movie) => {
+              {MOVIESINFO.map((movie) => {
                 return (
                   <Movie
                     key={movie.id}
@@ -22,6 +22,7 @@ const Theater = () => {
                     projection={movie.projection}
                     audio={movie.audio}
                     review={movie.review}
+                    times={movie.times}
                   />
                 );
               })}
