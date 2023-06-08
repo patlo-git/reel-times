@@ -1,20 +1,22 @@
+import React from "react";
 import { MovieProps } from "../mocks/MovieDB";
 import { MovieTimesButtons } from "./MovieTimes";
 
-const Movie = (props: MovieProps) => {
+const Movie: React.FC<MovieProps> = (props) => {
+  const { id, title, rating, length, genre, projection, audio, review, times } =
+    props;
   return (
     <div className="movie">
       <div className="movie-info">
-        <h2>{props.title}</h2>
+        <h2>{title}</h2>
         <h3 className="amenities">
-          {props.rating} | {props.length} | {props.genre} | {props.projection} |{" "}
-          {props.audio} | {props.review}
+          {rating} | {length} | {genre} | {projection} | {audio} | {review}
         </h3>
         <div className="times-wrapper">
           <>
-            {props.times.map((time: string) => {
-              return <MovieTimesButtons key={props.id} time={time} />;
-            })}
+            {times.map((time: string) => (
+              <MovieTimesButtons key={id} time={time} />
+            ))}
           </>
         </div>
       </div>

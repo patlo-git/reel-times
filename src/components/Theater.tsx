@@ -17,17 +17,28 @@ const Theater: React.FC<TheaterProps> = ({ movies }) => {
           <div className="movies-wrapper">
             <>
               {movies.map((movie) => {
+                const {
+                  id,
+                  title,
+                  rating,
+                  length,
+                  genre,
+                  projection,
+                  audio,
+                  review,
+                  times,
+                } = movie;
                 return (
                   <Movie
-                    key={movie.id}
-                    title={movie.title}
-                    rating={movie.rating}
-                    length={movie.length}
-                    genre={movie.genre}
-                    projection={movie.projection}
-                    audio={movie.audio}
-                    review={movie.review}
-                    times={movie.times}
+                    key={id}
+                    title={title}
+                    rating={rating}
+                    length={length}
+                    genre={genre}
+                    projection={projection}
+                    audio={audio}
+                    review={review}
+                    times={times}
                   />
                 );
               })}
