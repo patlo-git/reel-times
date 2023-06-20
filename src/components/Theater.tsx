@@ -4,9 +4,10 @@ import { MovieProps } from "../mocks/MovieDB";
 
 interface TheaterProps {
   movies: MovieProps[];
+  data: string;
 }
 
-const Theater: React.FC<TheaterProps> = ({ movies }) => {
+const Theater: React.FC<TheaterProps> = ({ movies, data }) => {
   return (
     <div className="theater-container">
       <div>
@@ -19,7 +20,6 @@ const Theater: React.FC<TheaterProps> = ({ movies }) => {
               {movies.map((movie) => {
                 const {
                   id,
-                  title,
                   rating,
                   length,
                   genre,
@@ -31,7 +31,8 @@ const Theater: React.FC<TheaterProps> = ({ movies }) => {
                 return (
                   <Movie
                     key={id}
-                    title={title}
+                    id={id}
+                    title={data}
                     rating={rating}
                     length={length}
                     genre={genre}

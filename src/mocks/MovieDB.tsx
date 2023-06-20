@@ -1,5 +1,5 @@
 export interface MovieProps {
-  id?: number;
+  id: number;
   title: string;
   rating: string;
   length: string;
@@ -7,7 +7,7 @@ export interface MovieProps {
   projection?: string;
   audio?: string;
   review?: string;
-  times: string[];
+  times?: string[];
 }
 
 export const MOVIESINFO: MovieProps[] = [
