@@ -14,8 +14,8 @@ const Movie: React.FC<MovieProps> = (props) => {
         </h3>
         <div className="times-wrapper">
           <>
-            {times.map((time: string) => (
-              <MovieTimesButtons key={id} time={time} />
+            {(times ?? []).map((time, index) => (
+              <MovieTimesButtons key={id + index} time={time} />
             ))}
           </>
         </div>
