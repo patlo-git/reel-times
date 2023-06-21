@@ -3,5 +3,11 @@ interface MovieTheaterTimesProps {
 }
 
 export const MovieTimesButtons = ({ time }: MovieTheaterTimesProps) => {
-  return <button>{time}</button>;
+  const abreviatedTime = new Date(time).toLocaleString("en-US", {
+    hour: "numeric",
+    minute: "numeric",
+    hour12: true,
+  });
+
+  return <button>{abreviatedTime}</button>;
 };
