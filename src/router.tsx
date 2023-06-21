@@ -8,10 +8,9 @@ const router = Router();
 router.get("/theaters", (req, res) => {
   const options = {
     method: "GET",
-    url: "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc",
+    url: `http://data.tmsapi.com/v1.1/movies/showings?startDate=2023-06-21&zip=93109&api_key=${process.env.GRACENOTE_API_KEY}`,
     headers: {
       accept: "application/json",
-      Authorization: process.env.TMDB_TOKEN,
     },
   };
 
@@ -19,6 +18,7 @@ router.get("/theaters", (req, res) => {
     .request(options)
     .then((response) => {
       res.json(response.data);
+      console.log(response.data);
     })
     .then(() => console.log("/ called from router"))
     .catch((err) => console.error(err));

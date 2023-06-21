@@ -1,13 +1,12 @@
 import React from "react";
 import Movie from "./Movie";
-import { MovieProps } from "../mocks/MovieDB";
+import { MovieProps } from "../components/MovieData";
 
 interface TheaterProps {
   movies: MovieProps[];
-  data: string;
 }
 
-const Theater: React.FC<TheaterProps> = ({ movies, data }) => {
+const Theater: React.FC<TheaterProps> = ({ movies }) => {
   return (
     <div className="theater-container">
       <div>
@@ -20,26 +19,38 @@ const Theater: React.FC<TheaterProps> = ({ movies, data }) => {
               {movies.map((movie) => {
                 const {
                   id,
-                  rating,
-                  length,
-                  genre,
+                  title,
+                  releaseDate,
+                  language,
+                  genres,
+                  shortDescription,
+                  cast,
+                  directors,
+                  ratings,
+                  runTime,
                   projection,
                   audio,
                   review,
-                  times,
+                  showtimes,
                 } = movie;
+
                 return (
                   <Movie
                     key={id}
                     id={id}
-                    title={data}
-                    rating={rating}
-                    length={length}
-                    genre={genre}
+                    title={title}
+                    releaseDate={releaseDate}
+                    language={language}
+                    genres={genres}
+                    shortDescription={shortDescription}
+                    cast={cast}
+                    directors={directors}
+                    ratings={ratings}
+                    runTime={runTime}
                     projection={projection}
                     audio={audio}
                     review={review}
-                    times={times}
+                    showtimes={showtimes}
                   />
                 );
               })}

@@ -1,21 +1,39 @@
 import React from "react";
-import { MovieProps } from "../mocks/MovieDB";
+import { MovieProps } from "../components/MovieData";
 import { MovieTimesButtons } from "./MovieTimes";
 
 const Movie: React.FC<MovieProps> = (props) => {
-  const { id, title, rating, length, genre, projection, audio, review, times } =
-    props;
+  const {
+    id,
+    title,
+    genres,
+    ratings,
+    runTime,
+    projection,
+    audio,
+    review,
+    showtimes,
+  } = props;
+
+  const firstTwoGenres = genres?.slice(0, 2).join(", ");
+  const convertTime = runTime.slice(2);
+
+  console.log("ratings: ", ratings);
+
   return (
     <div className="movie">
       <div className="movie-info">
         <h2>{title}</h2>
         <h3 className="amenities">
-          {rating} | {length} | {genre} | {projection} | {audio} | {review}
+          {(ratings ?? []).map((ratingItem) => (
+            <span key={id}>{ratingItem.code}</span>
+          ))}{" "}
+          | {convertTime} | {firstTwoGenres} | {projection} | {audio} | {review}
         </h3>
         <div className="times-wrapper">
           <>
-            {(times ?? []).map((time, index) => (
-              <MovieTimesButtons key={id + index} time={time} />
+            {(showtimes ?? []).map((times, index) => (
+              <MovieTimesButtons key={id + index} time={times.dateTime} />
             ))}
           </>
         </div>
