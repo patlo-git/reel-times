@@ -13,9 +13,13 @@ const Movie: React.FC<MovieProps> = (props) => {
       <div className="movie-info">
         <h2>{title}</h2>
         <h3 className="amenities">
-          {(ratings ?? []).map((ratingItem, index) => (
-            <span key={tmsId + index}>{ratingItem.code}</span>
-          ))}{" "}
+          {(ratings ?? []).length > 0 ? (
+            (ratings ?? []).map((ratingItem, index) => (
+              <span key={tmsId + index}>{ratingItem.code}</span>
+            ))
+          ) : (
+            <span>NR</span>
+          )}{" "}
           | {convertTime} | {firstTwoGenres} | {"projection"} | {"audio"} |{" "}
           {"review"}
         </h3>
