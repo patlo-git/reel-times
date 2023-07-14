@@ -1,0 +1,813 @@
+[
+  {
+    "tmsId": "MV020182660000",
+    "rootId": "24695018",
+    "subType": "Feature Film",
+    "title": "Sound of Freedom",
+    "releaseYear": 2022,
+    "releaseDate": "2022-11-12",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Crime drama", "Thriller"],
+    "longDescription": "After rescuing a boy from ruthless child traffickers, a federal agent learns the boy's sister is still captive and decides to embark on a dangerous mission to save her. With time running out, he quits his job and journeys deep into the Colombian jungle, putting his life on the line to free her from a fate worse than death.",
+    "shortDescription": "A man journeys deep into the Colombian jungle to save a girl from ruthless child traffickers.",
+    "topCast": ["Jim Caviezel", "Bill Camp", "Cristal Aparicio"],
+    "directors": ["Alejandro Monteverde"],
+    "officialUrl": "https://www.soundoffreedommovie.com/",
+    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Language", "Adult Situations", "Violence"],
+    "runTime": "PT02H11M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p24695018_v_v7_aa.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T13:20",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T16:25",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T19:30",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV018922320000",
+    "rootId": "22972827",
+    "subType": "Feature Film",
+    "title": "Elemental",
+    "releaseYear": 2023,
+    "releaseDate": "2023-05-27",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Animated", "Children", "Comedy", "Fantasy"],
+    "audience": "Children",
+    "longDescription": "In a city where fire, water, land and air residents live together, a fiery young woman and a go-with-the-flow guy discover something elemental: how much they actually have in common.",
+    "shortDescription": "A fiery young woman and a go-with-the-flow guy discover something elemental.",
+    "topCast": ["Leah Lewis", "Mamoudou Athie", "Ronnie del Carmen"],
+    "directors": ["Peter Sohn"],
+    "officialUrl": "https://movies.disney.com/elemental",
+    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG" }],
+    "advisories": ["Adult Language", "Adult Situations"],
+    "runTime": "PT01H43M",
+    "animation": "Animated",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": { "content": "Elemental (2023)", "lang": "en" },
+      "uri": "assets/p22972827_p_v8_ag.jpg?w=240&h=360",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T13:30",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T16:15",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T19:00",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV016682840000",
+    "rootId": "20201199",
+    "subType": "Feature Film",
+    "title": "Transformers: Rise of the Beasts",
+    "releaseYear": 2023,
+    "releaseDate": "2023-06-09",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Action", "Adventure", "Science fiction", "Fantasy"],
+    "longDescription": "Optimus Prime and the Autobots take on their biggest challenge yet. When a new threat capable of destroying the entire planet emerges, they must team up with a powerful faction of Transformers known as the Maximals to save Earth.",
+    "shortDescription": "The Maximals, Predacons and Terrorcons join the battle on Earth between Autobots and Decepticons.",
+    "topCast": ["Anthony Ramos", "Dominique Fishback", "Peter Cullen"],
+    "directors": ["Steven Caple"],
+    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Language", "Adult Situations", "Violence"],
+    "runTime": "PT02H07M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p20201199_v_v12_am.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T13:45",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=209570&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T16:45",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=209570&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T19:45",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=209570&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV018663020000",
+    "rootId": "22648609",
+    "subType": "Feature Film",
+    "title": "Asteroid City",
+    "releaseYear": 2023,
+    "releaseDate": "2023-05-23",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Comedy drama"],
+    "longDescription": "World-changing events spectacularly disrupt the itinerary of a Junior Stargazer/Space Cadet convention in an American desert town circa 1955.",
+    "shortDescription": "World-changing events disrupt the itinerary of a Junior Stargazer/Space Cadet convention.",
+    "topCast": ["Jason Schwartzman", "Scarlett Johansson", "Tom Hanks"],
+    "directors": ["Wes Anderson"],
+    "officialUrl": "https://www.focusfeatures.com/asteroid-city",
+    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Situations", "Nudity"],
+    "runTime": "PT01H45M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p22648609_v_v12_ac.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T14:40",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=216989&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T17:20",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=216989&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-14T20:00",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=216989&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV019510620000",
+    "rootId": "23561164",
+    "subType": "Feature Film",
+    "title": "No Hard Feelings",
+    "releaseYear": 2023,
+    "releaseDate": "2023-06-23",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Comedy"],
+    "longDescription": "On the brink of losing her childhood home, a desperate woman agrees to date a wealthy couple's introverted and awkward 19-year-old son. However, he proves to be more of a challenge than she expected, and time is running out before she loses it all.",
+    "shortDescription": "Desperate for cash, a woman agrees to date a rich couple's introverted and awkward 19-year-old son.",
+    "topCast": [
+      "Jennifer Lawrence",
+      "Andrew Barth Feldman",
+      "Matthew Broderick"
+    ],
+    "directors": ["Gene Stupnitsky"],
+    "officialUrl": "https://www.nohardfeelingsmovie.com/",
+    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "R" }],
+    "advisories": ["Adult Language", "Adult Situations", "Nudity"],
+    "runTime": "PT01H43M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p23561164_v_v12_ad.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T12:20",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=224387&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T15:00",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=224387&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T17:40",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=224387&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T20:15",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=224387&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV019587740000",
+    "rootId": "23666845",
+    "subType": "Feature Film",
+    "title": "Insidious: The Red Door",
+    "releaseYear": 2023,
+    "releaseDate": "2023-07-07",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Horror", "Thriller"],
+    "longDescription": "Josh Lambert heads east to drop his son, Dalton, off at school. However, Dalton's college dream soon becomes a living nightmare when the repressed demons of his past suddenly return to haunt them both.",
+    "shortDescription": "Dalton's college dream soon becomes a living nightmare when the repressed demons of his past return.",
+    "topCast": ["Patrick Wilson", "Ty Simpkins", "Rose Byrne"],
+    "directors": ["Patrick Wilson"],
+    "officialUrl": "https://www.sonypictures.com/movies/insidiousthereddoor",
+    "qualityRating": { "ratingsBody": "TMS", "value": "2" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Language", "Adult Situations", "Violence"],
+    "runTime": "PT01H47M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p23666845_v_v12_ac.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T12:30",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T15:10",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T17:50",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T20:30",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV019980790000",
+    "rootId": "24343038",
+    "subType": "Feature Film",
+    "title": "Joy Ride",
+    "releaseYear": 2023,
+    "releaseDate": "2023-07-07",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Comedy"],
+    "longDescription": "When Audrey's business trip to Asia goes sideways, she enlists the help of Lolo, her childhood best friend, Kat, a college friend, and Deadeye, Lolo's eccentric cousin. Their epic, no-holds-barred experience becomes a journey of bonding, friendship, belonging and wild debauchery that reveals the universal truth of what it means to know and love who you are.",
+    "shortDescription": "Four friends embark on an epic, no-holds-barred journey of bonding, belonging and wild debauchery.",
+    "topCast": ["Ashley Park", "Sherry Cola", "Stephanie Hsu"],
+    "directors": ["Adele Lim"],
+    "qualityRating": { "ratingsBody": "TMS", "value": "3" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "R" }],
+    "advisories": [
+      "Adult Language",
+      "Adult Situations",
+      "Nudity",
+      "Strong Sexual Content"
+    ],
+    "runTime": "PT01H35M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p24343038_v_v12_ac.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T12:40",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=229677&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T15:05",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=229677&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T17:30",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=229677&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T20:00",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=229677&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV018694660000",
+    "rootId": "22676161",
+    "subType": "Feature Film",
+    "title": "The Little Mermaid",
+    "releaseYear": 2023,
+    "releaseDate": "2023-05-26",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Family", "Musical", "Fantasy", "Romance"],
+    "longDescription": "The youngest of King Triton's daughters, Ariel is a beautiful and spirited young mermaid with a thirst for adventure. Longing to find out more about the world beyond the sea, Ariel visits the surface and falls for the dashing Prince Eric. Following her heart, she makes a deal with the evil sea witch, Ursula, to experience life on land.",
+    "shortDescription": "A spirited young mermaid falls for the dashing Prince Eric while experiencing life on land.",
+    "topCast": ["Halle Bailey", "Jonah Hauer-King", "Daveed Diggs"],
+    "directors": ["Rob Marshall"],
+    "officialUrl": "https://movies.disney.com/the-little-mermaid-2023",
+    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG" }],
+    "advisories": ["Adult Situations"],
+    "runTime": "PT02H15M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p22676161_v_v12_ag.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T12:50",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=218081&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T16:00",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=218081&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T19:05",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=218081&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV016607910000",
+    "rootId": "20130736",
+    "subType": "Feature Film",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "releaseYear": 2023,
+    "releaseDate": "2023-05-31",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Animated",
+      "Children",
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "audience": "Children",
+    "longDescription": "After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. However, when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders. He must soon redefine what it means to be a hero so he can save the people he loves most.",
+    "shortDescription": "Brooklyn's friendly neighborhood Spider-Man encounters a team of Spider-People in the Multiverse.",
+    "topCast": ["Shameik Moore", "Hailee Steinfeld", "Brian Tyree Henry"],
+    "directors": ["Joaquim Dos Santos", "Kemp Powers", "Justin K. Thompson"],
+    "officialUrl": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse",
+    "qualityRating": { "ratingsBody": "TMS", "value": "3.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG" }],
+    "advisories": ["Adult Language", "Adult Situations", "Violence"],
+    "runTime": "PT02H20M",
+    "animation": "Animated",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p20130736_v_v8_af.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T13:30",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=209407&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T16:40",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=209407&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-14T19:45",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=209407&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV012278460000",
+    "rootId": "16493930",
+    "subType": "Feature Film",
+    "title": "Mission: Impossible -- Dead Reckoning Part One",
+    "releaseYear": 2023,
+    "releaseDate": "2023-07-12",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Action", "Adventure", "Thriller"],
+    "longDescription": "Ethan Hunt and the IMF team must track down a terrifying new weapon that threatens all of humanity if it falls into the wrong hands. With control of the future and the fate of the world at stake, a deadly race around the globe begins. Confronted by a mysterious, all-powerful enemy, Ethan is forced to consider that nothing can matter more than the mission -- not even the lives of those he cares about most.",
+    "shortDescription": "Ethan Hunt and the IMF team must track down a terrifying new weapon that threatens all of humanity.",
+    "topCast": ["Tom Cruise", "Hayley Atwell", "Ving Rhames"],
+    "directors": ["Christopher McQuarrie"],
+    "officialUrl": "https://www.missionimpossible.com/",
+    "qualityRating": { "ratingsBody": "TMS", "value": "3.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Language", "Adult Situations", "Violence"],
+    "runTime": "PT02H43M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p16493930_v_v12_ae.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2449", "name": "Arlington Theatre" },
+        "dateTime": "2023-07-14T13:00",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYF&m=193641&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2449", "name": "Arlington Theatre" },
+        "dateTime": "2023-07-14T16:40",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYF&m=193641&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2449", "name": "Arlington Theatre" },
+        "dateTime": "2023-07-14T20:20",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYF&m=193641&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T11:45",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T14:10",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T15:25",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T17:50",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T19:05",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T21:30",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV009712130000",
+    "rootId": "13685443",
+    "subType": "Feature Film",
+    "title": "Indiana Jones and the Dial of Destiny",
+    "releaseYear": 2023,
+    "releaseDate": "2023-05-18",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Adventure", "Action"],
+    "longDescription": "Daredevil archaeologist Indiana Jones races against time to retrieve a legendary dial that can change the course of history. Accompanied by his goddaughter, he soon finds himself squaring off against J\u00fcrgen Voller, a former Nazi who works for NASA.",
+    "shortDescription": "Indiana Jones races against time to find a legendary artifact that can change the course of history.",
+    "topCast": ["Harrison Ford", "Phoebe Waller-Bridge", "Antonio Banderas"],
+    "directors": ["James Mangold"],
+    "officialUrl": "https://movies.disney.com/indiana-jones-and-the-dial-of-destiny",
+    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Language", "Adult Situations", "Violence"],
+    "runTime": "PT02H34M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p13685443_v_v12_ah.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T12:30",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T14:00",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T16:00",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T17:40",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T19:30",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-14"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-14T21:05",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV018624090000",
+    "rootId": "22598882",
+    "subType": "Feature Film",
+    "title": "The Innocent",
+    "releaseYear": 2022,
+    "releaseDate": "2022",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Comedy", "Crime drama"],
+    "longDescription": "When a prison drama teacher marries one of the inmates, her son begins to wonder if the ex-con is still a criminal, or if he has actually been rehabilitated.",
+    "shortDescription": "When a prison drama teacher marries an inmate, her son wonders if the ex-con is still a criminal.",
+    "topCast": ["Louis Garrel", "Roschdy Zem", "Anouk Grinberg"],
+    "directors": ["Louis Garrel"],
+    "advisories": ["Adult Situations"],
+    "runTime": "PT01H39M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": { "content": "The Innocent (2022)", "lang": "en" },
+      "uri": "assets/p22598882_p_v8_ab.jpg?w=240&h=360",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2450", "name": "SBIFF Riviera Theatre" },
+        "dateTime": "2023-07-14T19:30",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV020241090000",
+    "rootId": "24796181",
+    "subType": "Feature Film",
+    "title": "The Miracle Club",
+    "releaseYear": 2023,
+    "releaseDate": "2023",
+    "titleLang": "en-GB",
+    "descriptionLang": "en-GB",
+    "entityType": "Movie",
+    "genres": ["Comedy", "Drama"],
+    "longDescription": "There's just one dream for the women of Ballygar to taste freedom: to win a pilgrimage to the sacred French town of Lourdes. With a little benevolent interference from their local priest, a group of close friends get their ticket of a lifetime.",
+    "shortDescription": "There's just one dream for the women of Ballygar to taste freedom: to win a pilgrimage to Lourdes.",
+    "topCast": ["Laura Linney", "Kathy Bates", "Maggie Smith"],
+    "directors": ["Thaddeus O'Sullivan"],
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Language"],
+    "runTime": "PT01H30M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": { "content": "The Miracle Club (2023)", "lang": "en-GB" },
+      "uri": "assets/p24796181_p_v12_aa.jpg?w=240&h=360",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "2678",
+          "name": "The Hitchcock Cinema & Public House"
+        },
+        "dateTime": "2023-07-14T16:45",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=232877&d=2023-07-14"
+      },
+      {
+        "theatre": {
+          "id": "2678",
+          "name": "The Hitchcock Cinema & Public House"
+        },
+        "dateTime": "2023-07-14T19:20",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=232877&d=2023-07-14"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV019898530000",
+    "rootId": "24134551",
+    "subType": "Feature Film",
+    "title": "Past Lives",
+    "releaseYear": 2023,
+    "releaseDate": "2023-01-21",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Romance", "Drama"],
+    "longDescription": "Nora and Hae Sung, two deeply connected childhood friends, are wrest apart after Nora's family emigrates from South Korea. Decades later, they are reunited for one fateful week as they confront destiny, love and the choices that make a life.",
+    "shortDescription": "After decades apart, two deeply connected childhood friends are reunited for one fateful week.",
+    "topCast": ["Greta Lee", "Teo Yoo", "John Magaro"],
+    "directors": ["Celine Song"],
+    "officialUrl": "https://a24films.com/films/past-lives",
+    "qualityRating": { "ratingsBody": "TMS", "value": "3.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Language", "Adult Situations"],
+    "runTime": "PT01H46M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "caption": { "content": "Past Lives (2023)", "lang": "en" },
+      "uri": "assets/p24134551_p_v8_ab.jpg?w=240&h=360",
+      "category": "Poster Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": {
+          "id": "2678",
+          "name": "The Hitchcock Cinema & Public House"
+        },
+        "dateTime": "2023-07-14T17:05",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=228179&d=2023-07-14"
+      },
+      {
+        "theatre": {
+          "id": "2678",
+          "name": "The Hitchcock Cinema & Public House"
+        },
+        "dateTime": "2023-07-14T19:40",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=228179&d=2023-07-14"
+      }
+    ]
+  }
+]
