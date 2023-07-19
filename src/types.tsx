@@ -44,7 +44,7 @@ export interface TheaterProps
   extends Omit<
     MovieAPIProps,
     | "subType"
-    | "releaseYear"
+    | "releaseDate"
     | "descriptionLang"
     | "entityType"
     | "longDescription"
@@ -56,7 +56,7 @@ export interface TheaterProps
   tmsId: string;
   rootId: string;
   title: string;
-  releaseDate: string;
+  releaseYear: number;
   titleLang: string;
   genres?: string[];
   shortDescription: string;
@@ -82,7 +82,6 @@ export interface MovieProps
   extends Omit<
     TheaterProps,
     | "rootId"
-    | "releaseDate"
     | "titleLang"
     | "language"
     | "shortDescription"
@@ -95,4 +94,5 @@ export interface MovieProps
   ratings?: Rating[];
   runTime: string;
   showtimes: ShowtimesProps[];
+  releaseYear: number;
 }

@@ -3,7 +3,8 @@ import { MovieTimesButtons } from "./MovieTimes";
 import { MovieProps } from "../types";
 
 const Movie: React.FC<MovieProps> = (props) => {
-  const { tmsId, title, genres, ratings, runTime, showtimes } = props;
+  const { tmsId, title, genres, ratings, runTime, showtimes, releaseYear } =
+    props;
 
   const firstTwoGenres = genres?.slice(0, 2).join(", ");
   const convertTime = runTime.slice(2);
@@ -20,7 +21,7 @@ const Movie: React.FC<MovieProps> = (props) => {
           ) : (
             <span>NR</span>
           )}{" "}
-          | {convertTime} | {firstTwoGenres} | {"projection"} | {"audio"} |{" "}
+          | {convertTime} | {releaseYear} | {firstTwoGenres} | {"projection"} |{" "}
           {"review"}
         </h3>
         <div className="times-wrapper">

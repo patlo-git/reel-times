@@ -40,6 +40,8 @@ const Theater: React.FC<Props> = ({ movies }) => {
     });
   });
 
+  console.log("moviesByTheater: ", moviesByTheater);
+
   return (
     <div className="theater-container">
       {Object.entries(moviesByTheater).map(([theaterId, movies]) => {
@@ -61,6 +63,7 @@ const Theater: React.FC<Props> = ({ movies }) => {
                       ratings,
                       runTime,
                       showtimes,
+                      releaseYear,
                     } = movie;
 
                     return (
@@ -72,6 +75,7 @@ const Theater: React.FC<Props> = ({ movies }) => {
                         ratings={ratings}
                         runTime={runTime}
                         showtimes={showtimes}
+                        releaseYear={releaseYear}
                       />
                     );
                   })}
