@@ -27,7 +27,11 @@ const Movie: React.FC<MovieProps> = (props) => {
         <div className="times-wrapper">
           <>
             {(showtimes ?? []).map((times, index) => (
-              <MovieTimesButtons key={tmsId + index} time={times.dateTime} />
+              <MovieTimesButtons
+                key={tmsId + index}
+                time={times.dateTime}
+                link={times.ticketURI ? times.ticketURI : ""}
+              />
             ))}
           </>
         </div>

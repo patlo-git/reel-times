@@ -76,6 +76,7 @@ export interface ShowtimesProps {
   theatre: ShowtimeTheaterProps;
   dateTime: string;
   quals?: string;
+  ticketURI?: string;
 }
 
 export interface MovieProps
