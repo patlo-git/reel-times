@@ -9,6 +9,21 @@ const Movie: React.FC<MovieProps> = (props) => {
   const firstTwoGenres = genres?.slice(0, 2).join(", ");
   const convertTime = runTime.slice(2);
 
+  const amenities = showtimes.map((showtime, index) => {
+    if (showtime.quals) {
+      return (
+        <span key={tmsId + index}>
+          {showtime.quals?.split("|").join(" | ")} |
+        </span>
+      );
+    } else {
+      return <span key={tmsId + index}></span>;
+    }
+  });
+
+  const amenity = amenities[0];
+  console.log("amenity: ", amenity.props.children);
+
   return (
     <div className="movie">
       <div className="movie-info">
@@ -21,7 +36,7 @@ const Movie: React.FC<MovieProps> = (props) => {
           ) : (
             <span>NR</span>
           )}{" "}
-          | {convertTime} | {releaseYear} | {firstTwoGenres} | {"projection"} |{" "}
+          | {convertTime} | {releaseYear} | {firstTwoGenres} | {amenity}{" "}
           {"review"}
         </h3>
         <div className="times-wrapper">
