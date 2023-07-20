@@ -18,7 +18,6 @@ body {
 }
 
 #header-container {
-  /* position: absolute; */
   top: 0px;
   left: 0px;
   right: 0px;
@@ -50,7 +49,6 @@ body {
 
 .theater-container {
   display: inline-block;
-  /* border: 2px solid red; */
   max-width: 1152px;
   margin: 16px;
 }
@@ -67,23 +65,16 @@ body {
   margin: auto auto auto 16px;
 }
 
-.movies-container {
-  display: flex;
-}
-
 .movies-wrapper {
   display: flex;
-  margin: 8px;
+  margin: 8px 8px 8px 0px;
   gap: 8px;
-  /* border: 1px solid black; */
-  width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .movie {
-  /* border-bottom: 1px solid hsl(0, 0%, 20%); */
-  max-width: 556px;
+  flex: 0 49%;
   justify-content: space-between;
   display: flex;
   text-transform: uppercase;
@@ -124,7 +115,6 @@ body {
 
 .search-params {
   max-width: 500px;
-  /* border: 1px red solid; */
   margin: 0 auto;
   height: 600px;
   float: right;
@@ -133,27 +123,22 @@ body {
 
 .search-params form {
   border-radius: 6px;
-  /* border: 3px green solid; */
 	background: hsl(355, 0%, 96%);
 	box-shadow: 0px 0px 12px #aaa, -0px -0px 12px #fff;
-	/* max-width: 100%; */
   height: 100%;
 	margin: 0px 25px 0px 0px;
 	padding: 2rem 1.5rem;
 	display: flex;
-  /* align-items: center; */
   flex-direction: column;
   justify-content: space-between;
 }
 
 .search-params form div a {
   display: block;
-  /* border: 1px red solid; */
 }
 
 #location, #date, #range, .select-container > label {
   display: block;
-  /* font-weight: 200; */
 }
 
 select {
@@ -163,7 +148,6 @@ select {
 
 form label {
   color: hsla(0, 0%, 20%);
-  /* color: hsla(0, 49%, 67%, 0.75); */
   font-weight: 300;
 }
 
@@ -173,4 +157,9 @@ form input {
   color: hsla(0, 0%, 20%, 0.75);
 }
 
-/* how to set all children of filter wrapper to have height 220px? */
+@media screen and (max-width: 768px) {
+  .movie {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
