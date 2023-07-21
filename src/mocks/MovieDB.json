@@ -1,5 +1,100 @@
 [
   {
+    "tmsId": "MV018299200000",
+    "rootId": "22143664",
+    "subType": "Feature Film",
+    "title": "Oppenheimer",
+    "releaseYear": 2023,
+    "releaseDate": "2023-07-15",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Historical drama", "Biography"],
+    "longDescription": "During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.",
+    "shortDescription": "Physicist J. Robert Oppenheimer works with a team of scientists to develop the atomic bomb.",
+    "topCast": ["Cillian Murphy", "Emily Blunt", "Robert Downey"],
+    "directors": ["Christopher Nolan"],
+    "officialUrl": "https://www.oppenheimermovie.com/",
+    "ratings": [{ "body": "Motion Picture Association", "code": "R" }],
+    "advisories": ["Adult Language", "Adult Situations", "Nudity"],
+    "runTime": "PT03H00M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p22143664_v_v8_ac.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-21T13:20",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=215590&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-21T15:20",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=215590&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-21T17:15",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=215590&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-21T19:15",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=215590&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
+        "dateTime": "2023-07-21T21:05",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=215590&d=2023-07-21"
+      },
+      {
+        "theatre": {
+          "id": "2678",
+          "name": "The Hitchcock Cinema & Public House"
+        },
+        "dateTime": "2023-07-21T12:30",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=215590&d=2023-07-21"
+      },
+      {
+        "theatre": {
+          "id": "2678",
+          "name": "The Hitchcock Cinema & Public House"
+        },
+        "dateTime": "2023-07-21T15:40",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=215590&d=2023-07-21"
+      },
+      {
+        "theatre": {
+          "id": "2678",
+          "name": "The Hitchcock Cinema & Public House"
+        },
+        "dateTime": "2023-07-21T18:45",
+        "quals": "No Passes|Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=215590&d=2023-07-21"
+      }
+    ]
+  },
+  {
     "tmsId": "MV020182660000",
     "rootId": "24695018",
     "subType": "Feature Film",
@@ -30,24 +125,24 @@
     "showtimes": [
       {
         "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T13:20",
-        "quals": "Closed Captioned",
+        "dateTime": "2023-07-21T13:30",
+        "quals": "No Passes|Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-21"
       },
       {
         "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T16:25",
-        "quals": "Closed Captioned",
+        "dateTime": "2023-07-21T16:40",
+        "quals": "No Passes|Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-21"
       },
       {
         "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T19:30",
-        "quals": "Closed Captioned",
+        "dateTime": "2023-07-21T19:45",
+        "quals": "No Passes|Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=231819&d=2023-07-21"
       }
     ]
   },
@@ -85,198 +180,50 @@
     "showtimes": [
       {
         "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T13:30",
+        "dateTime": "2023-07-21T13:40",
         "quals": "Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-21"
       },
       {
         "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T16:15",
+        "dateTime": "2023-07-21T16:20",
         "quals": "Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-21"
       },
       {
         "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T19:00",
+        "dateTime": "2023-07-21T19:00",
         "quals": "Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=223784&d=2023-07-21"
       }
     ]
   },
   {
-    "tmsId": "MV016682840000",
-    "rootId": "20201199",
+    "tmsId": "MV009483060000",
+    "rootId": "13472534",
     "subType": "Feature Film",
-    "title": "Transformers: Rise of the Beasts",
+    "title": "Barbie",
     "releaseYear": 2023,
-    "releaseDate": "2023-06-09",
-    "titleLang": "en",
-    "descriptionLang": "en",
-    "entityType": "Movie",
-    "genres": ["Action", "Adventure", "Science fiction", "Fantasy"],
-    "longDescription": "Optimus Prime and the Autobots take on their biggest challenge yet. When a new threat capable of destroying the entire planet emerges, they must team up with a powerful faction of Transformers known as the Maximals to save Earth.",
-    "shortDescription": "The Maximals, Predacons and Terrorcons join the battle on Earth between Autobots and Decepticons.",
-    "topCast": ["Anthony Ramos", "Dominique Fishback", "Peter Cullen"],
-    "directors": ["Steven Caple"],
-    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
-    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
-    "advisories": ["Adult Language", "Adult Situations", "Violence"],
-    "runTime": "PT02H07M",
-    "preferredImage": {
-      "width": "240",
-      "height": "360",
-      "uri": "assets/p20201199_v_v12_am.jpg?w=240&h=360",
-      "category": "VOD Art",
-      "text": "yes",
-      "primary": "true"
-    },
-    "showtimes": [
-      {
-        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T13:45",
-        "quals": "Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=209570&d=2023-07-20"
-      }
-    ]
-  },
-  {
-    "tmsId": "MV018663020000",
-    "rootId": "22648609",
-    "subType": "Feature Film",
-    "title": "Asteroid City",
-    "releaseYear": 2023,
-    "releaseDate": "2023-05-23",
-    "titleLang": "en",
-    "descriptionLang": "en",
-    "entityType": "Movie",
-    "genres": ["Comedy drama"],
-    "longDescription": "World-changing events spectacularly disrupt the itinerary of a Junior Stargazer/Space Cadet convention in an American desert town circa 1955.",
-    "shortDescription": "World-changing events disrupt the itinerary of a Junior Stargazer/Space Cadet convention.",
-    "topCast": ["Jason Schwartzman", "Scarlett Johansson", "Tom Hanks"],
-    "directors": ["Wes Anderson"],
-    "officialUrl": "https://www.focusfeatures.com/asteroid-city",
-    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
-    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
-    "advisories": ["Adult Situations", "Nudity"],
-    "runTime": "PT01H45M",
-    "preferredImage": {
-      "width": "240",
-      "height": "360",
-      "uri": "assets/p22648609_v_v12_ac.jpg?w=240&h=360",
-      "category": "VOD Art",
-      "text": "yes",
-      "primary": "true"
-    },
-    "showtimes": [
-      {
-        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T14:40",
-        "quals": "Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=216989&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T17:20",
-        "quals": "Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=216989&d=2023-07-20"
-      }
-    ]
-  },
-  {
-    "tmsId": "MV018299200000",
-    "rootId": "22143664",
-    "subType": "Feature Film",
-    "title": "Oppenheimer",
-    "releaseYear": 2023,
-    "releaseDate": "2023-07-15",
-    "titleLang": "en",
-    "descriptionLang": "en",
-    "entityType": "Movie",
-    "genres": ["Historical drama", "Biography"],
-    "longDescription": "During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.",
-    "shortDescription": "Physicist J. Robert Oppenheimer works with a team of scientists to develop the atomic bomb.",
-    "topCast": ["Cillian Murphy", "Emily Blunt", "Robert Downey"],
-    "directors": ["Christopher Nolan"],
-    "officialUrl": "https://www.oppenheimermovie.com/",
-    "ratings": [{ "body": "Motion Picture Association", "code": "R" }],
-    "advisories": ["Adult Language", "Adult Situations", "Nudity"],
-    "runTime": "PT03H00M",
-    "preferredImage": {
-      "width": "240",
-      "height": "360",
-      "uri": "assets/p22143664_v_v8_ac.jpg?w=240&h=360",
-      "category": "VOD Art",
-      "text": "yes",
-      "primary": "true"
-    },
-    "showtimes": [
-      {
-        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T17:00",
-        "quals": "No Passes|Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=215590&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T19:45",
-        "quals": "No Passes|Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=215590&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2869", "name": "Paseo Nuevo Cinemas" },
-        "dateTime": "2023-07-20T21:00",
-        "quals": "No Passes|Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYI&m=215590&d=2023-07-20"
-      },
-      {
-        "theatre": {
-          "id": "2678",
-          "name": "The Hitchcock Cinema & Public House"
-        },
-        "dateTime": "2023-07-20T19:00",
-        "quals": "No Passes|Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=215590&d=2023-07-20"
-      }
-    ]
-  },
-  {
-    "tmsId": "MV019510620000",
-    "rootId": "23561164",
-    "subType": "Feature Film",
-    "title": "No Hard Feelings",
-    "releaseYear": 2023,
-    "releaseDate": "2023-06-23",
+    "releaseDate": "2023-07-21",
     "titleLang": "en",
     "descriptionLang": "en",
     "entityType": "Movie",
     "genres": ["Comedy"],
-    "longDescription": "On the brink of losing her childhood home, a desperate woman agrees to date a wealthy couple's introverted and awkward 19-year-old son. However, he proves to be more of a challenge than she expected, and time is running out before she loses it all.",
-    "shortDescription": "Desperate for cash, a woman agrees to date a rich couple's introverted and awkward 19-year-old son.",
-    "topCast": [
-      "Jennifer Lawrence",
-      "Andrew Barth Feldman",
-      "Matthew Broderick"
-    ],
-    "directors": ["Gene Stupnitsky"],
-    "officialUrl": "https://www.nohardfeelingsmovie.com/",
-    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
-    "ratings": [{ "body": "Motion Picture Association", "code": "R" }],
-    "advisories": ["Adult Language", "Adult Situations", "Nudity"],
-    "runTime": "PT01H43M",
+    "longDescription": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+    "shortDescription": "Barbie and Ken leave the world of Barbie Land to discover the joys and perils of the real world.",
+    "topCast": ["Margot Robbie", "Ryan Gosling", "America Ferrera"],
+    "directors": ["Greta Gerwig"],
+    "officialUrl": "https://www.barbie-themovie.com/",
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Language", "Adult Situations"],
+    "runTime": "PT01H54M",
     "preferredImage": {
       "width": "240",
       "height": "360",
-      "uri": "assets/p23561164_v_v12_ad.jpg?w=240&h=360",
+      "uri": "assets/p13472534_v_v8_ad.jpg?w=240&h=360",
       "category": "VOD Art",
       "text": "yes",
       "primary": "true"
@@ -284,10 +231,87 @@
     "showtimes": [
       {
         "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T12:20",
-        "quals": "Closed Captioned|Reserved",
+        "dateTime": "2023-07-21T11:25",
+        "quals": "No Passes|Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=224387&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T12:15",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T13:15",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T14:10",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T15:00",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T16:00",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T16:55",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T17:45",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T18:45",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T19:40",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T20:30",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T21:30",
+        "quals": "No Passes|Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-21"
       }
     ]
   },
@@ -322,31 +346,85 @@
     "showtimes": [
       {
         "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T12:30",
-        "quals": "No Passes|Closed Captioned|Reserved",
+        "dateTime": "2023-07-21T12:00",
+        "quals": "Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-21"
       },
       {
         "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T15:10",
-        "quals": "No Passes|Closed Captioned|Reserved",
+        "dateTime": "2023-07-21T14:45",
+        "quals": "Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-21"
       },
       {
         "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T17:50",
-        "quals": "No Passes|Closed Captioned|Reserved",
+        "dateTime": "2023-07-21T17:30",
+        "quals": "Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-21"
       },
       {
         "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T20:30",
-        "quals": "No Passes|Closed Captioned|Reserved",
+        "dateTime": "2023-07-21T20:15",
+        "quals": "Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=225051&d=2023-07-21"
+      }
+    ]
+  },
+  {
+    "tmsId": "MV016607910000",
+    "rootId": "20130736",
+    "subType": "Feature Film",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "releaseYear": 2023,
+    "releaseDate": "2023-05-31",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": [
+      "Animated",
+      "Children",
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "audience": "Children",
+    "longDescription": "After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. However, when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders. He must soon redefine what it means to be a hero so he can save the people he loves most.",
+    "shortDescription": "Brooklyn's friendly neighborhood Spider-Man encounters a team of Spider-People in the Multiverse.",
+    "topCast": ["Shameik Moore", "Hailee Steinfeld", "Brian Tyree Henry"],
+    "directors": ["Joaquim Dos Santos", "Kemp Powers", "Justin K. Thompson"],
+    "officialUrl": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse",
+    "qualityRating": { "ratingsBody": "TMS", "value": "3.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG" }],
+    "advisories": ["Adult Language", "Adult Situations", "Violence"],
+    "runTime": "PT02H20M",
+    "animation": "Animated",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p20130736_v_v12_ah.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T13:40",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=209407&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2931", "name": "Fiesta 5" },
+        "dateTime": "2023-07-21T16:45",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=209407&d=2023-07-21"
       }
     ]
   },
@@ -385,188 +463,10 @@
     "showtimes": [
       {
         "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T12:40",
+        "dateTime": "2023-07-21T20:00",
         "quals": "Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=229677&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T15:05",
-        "quals": "Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=229677&d=2023-07-20"
-      }
-    ]
-  },
-  {
-    "tmsId": "MV018694660000",
-    "rootId": "22676161",
-    "subType": "Feature Film",
-    "title": "The Little Mermaid",
-    "releaseYear": 2023,
-    "releaseDate": "2023-05-26",
-    "titleLang": "en",
-    "descriptionLang": "en",
-    "entityType": "Movie",
-    "genres": ["Family", "Musical", "Fantasy", "Romance"],
-    "longDescription": "The youngest of King Triton's daughters, Ariel is a beautiful and spirited young mermaid with a thirst for adventure. Longing to find out more about the world beyond the sea, Ariel visits the surface and falls for the dashing Prince Eric. Following her heart, she makes a deal with the evil sea witch, Ursula, to experience life on land.",
-    "shortDescription": "A spirited young mermaid falls for the dashing Prince Eric while experiencing life on land.",
-    "topCast": ["Halle Bailey", "Jonah Hauer-King", "Daveed Diggs"],
-    "directors": ["Rob Marshall"],
-    "officialUrl": "https://movies.disney.com/the-little-mermaid-2023",
-    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
-    "ratings": [{ "body": "Motion Picture Association", "code": "PG" }],
-    "advisories": ["Adult Situations"],
-    "runTime": "PT02H15M",
-    "preferredImage": {
-      "width": "240",
-      "height": "360",
-      "uri": "assets/p22676161_v_v12_ag.jpg?w=240&h=360",
-      "category": "VOD Art",
-      "text": "yes",
-      "primary": "true"
-    },
-    "showtimes": [
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T12:50",
-        "quals": "Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=218081&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T16:00",
-        "quals": "Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=218081&d=2023-07-20"
-      }
-    ]
-  },
-  {
-    "tmsId": "MV016607910000",
-    "rootId": "20130736",
-    "subType": "Feature Film",
-    "title": "Spider-Man: Across the Spider-Verse",
-    "releaseYear": 2023,
-    "releaseDate": "2023-05-31",
-    "titleLang": "en",
-    "descriptionLang": "en",
-    "entityType": "Movie",
-    "genres": [
-      "Animated",
-      "Children",
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ],
-    "audience": "Children",
-    "longDescription": "After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. However, when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders. He must soon redefine what it means to be a hero so he can save the people he loves most.",
-    "shortDescription": "Brooklyn's friendly neighborhood Spider-Man encounters a team of Spider-People in the Multiverse.",
-    "topCast": ["Shameik Moore", "Hailee Steinfeld", "Brian Tyree Henry"],
-    "directors": ["Joaquim Dos Santos", "Kemp Powers", "Justin K. Thompson"],
-    "officialUrl": "https://www.sonypictures.com/movies/spidermanacrossthespiderverse",
-    "qualityRating": { "ratingsBody": "TMS", "value": "3.5" },
-    "ratings": [{ "body": "Motion Picture Association", "code": "PG" }],
-    "advisories": ["Adult Language", "Adult Situations", "Violence"],
-    "runTime": "PT02H20M",
-    "animation": "Animated",
-    "preferredImage": {
-      "width": "240",
-      "height": "360",
-      "uri": "assets/p20130736_v_v8_af.jpg?w=240&h=360",
-      "category": "VOD Art",
-      "text": "yes",
-      "primary": "true"
-    },
-    "showtimes": [
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T13:30",
-        "quals": "Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=209407&d=2023-07-20"
-      }
-    ]
-  },
-  {
-    "tmsId": "MV009483060000",
-    "rootId": "13472534",
-    "subType": "Feature Film",
-    "title": "Barbie",
-    "releaseYear": 2023,
-    "releaseDate": "2023-07-21",
-    "titleLang": "en",
-    "descriptionLang": "en",
-    "entityType": "Movie",
-    "genres": ["Comedy"],
-    "longDescription": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
-    "shortDescription": "Barbie and Ken leave the world of Barbie Land to discover the joys and perils of the real world.",
-    "topCast": ["Margot Robbie", "Ryan Gosling", "America Ferrera"],
-    "directors": ["Greta Gerwig"],
-    "officialUrl": "https://www.barbie-themovie.com/",
-    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
-    "advisories": ["Adult Language", "Adult Situations"],
-    "runTime": "PT01H54M",
-    "preferredImage": {
-      "width": "240",
-      "height": "360",
-      "uri": "assets/p13472534_v_v8_ad.jpg?w=240&h=360",
-      "category": "VOD Art",
-      "text": "yes",
-      "primary": "true"
-    },
-    "showtimes": [
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T15:45",
-        "quals": "No Passes|Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T16:35",
-        "quals": "No Passes|Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T17:30",
-        "quals": "No Passes|Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T18:30",
-        "quals": "No Passes|Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T19:20",
-        "quals": "No Passes|Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T20:20",
-        "quals": "No Passes|Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2931", "name": "Fiesta 5" },
-        "dateTime": "2023-07-20T21:15",
-        "quals": "No Passes|Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=168705&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYG&m=229677&d=2023-07-21"
       }
     ]
   },
@@ -601,66 +501,59 @@
     "showtimes": [
       {
         "theatre": { "id": "2449", "name": "Arlington Theatre" },
-        "dateTime": "2023-07-20T13:00",
+        "dateTime": "2023-07-21T15:20",
         "quals": "No Passes|Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYF&m=193641&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYF&m=193641&d=2023-07-21"
       },
       {
         "theatre": { "id": "2449", "name": "Arlington Theatre" },
-        "dateTime": "2023-07-20T16:40",
+        "dateTime": "2023-07-21T19:00",
         "quals": "No Passes|Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYF&m=193641&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2449", "name": "Arlington Theatre" },
-        "dateTime": "2023-07-20T20:20",
-        "quals": "No Passes|Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYF&m=193641&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYF&m=193641&d=2023-07-21"
       },
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T11:45",
+        "dateTime": "2023-07-21T12:55",
         "quals": "No Passes|Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-21"
       },
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T14:10",
+        "dateTime": "2023-07-21T14:05",
         "quals": "No Passes|Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-21"
       },
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T15:25",
+        "dateTime": "2023-07-21T16:30",
         "quals": "No Passes|Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-21"
       },
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T17:50",
+        "dateTime": "2023-07-21T17:40",
         "quals": "No Passes|Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-21"
       },
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T19:05",
+        "dateTime": "2023-07-21T20:05",
         "quals": "No Passes|Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-21"
       },
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T21:30",
+        "dateTime": "2023-07-21T21:15",
         "quals": "No Passes|Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=193641&d=2023-07-21"
       }
     ]
   },
@@ -695,103 +588,76 @@
     "showtimes": [
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T12:30",
+        "dateTime": "2023-07-21T12:45",
         "quals": "Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-21"
       },
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T14:00",
+        "dateTime": "2023-07-21T16:15",
         "quals": "Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-21"
       },
       {
         "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T16:00",
+        "dateTime": "2023-07-21T19:45",
         "quals": "Closed Captioned|Reserved",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T17:40",
-        "quals": "Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T19:30",
-        "quals": "Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-20"
-      },
-      {
-        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
-        "dateTime": "2023-07-20T21:05",
-        "quals": "Closed Captioned|Reserved",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=170074&d=2023-07-21"
       }
     ]
   },
   {
-    "tmsId": "MV018538850000",
-    "rootId": "22503311",
+    "tmsId": "MV018663020000",
+    "rootId": "22648609",
     "subType": "Feature Film",
-    "title": "Pacifiction",
-    "releaseYear": 2022,
-    "releaseDate": "2022-05-26",
+    "title": "Asteroid City",
+    "releaseYear": 2023,
+    "releaseDate": "2023-05-23",
     "titleLang": "en",
     "descriptionLang": "en",
     "entityType": "Movie",
-    "genres": ["Drama", "Thriller"],
-    "longDescription": "On the French Polynesian island of Tahiti, the high commissioner of the Republic and French government must investigate a persistent rumor: the sighting of a submarine whose ghostly presence could herald the return of French nuclear testing.",
-    "shortDescription": "The high commissioner must investigate a rumor that could herald the return of nuclear testing.",
-    "topCast": ["Beno\u00eet Magimel", "Pahoa Mahagafanau", "Marc Susini"],
-    "directors": ["Albert Serra"],
-    "officialUrl": "http://grasshopperfilm.com/film/pacifiction/",
-    "runTime": "PT02H45M",
+    "genres": ["Comedy drama"],
+    "longDescription": "World-changing events spectacularly disrupt the itinerary of a Junior Stargazer/Space Cadet convention in an American desert town circa 1955.",
+    "shortDescription": "World-changing events disrupt the itinerary of a Junior Stargazer/Space Cadet convention.",
+    "topCast": ["Jason Schwartzman", "Scarlett Johansson", "Tom Hanks"],
+    "directors": ["Wes Anderson"],
+    "officialUrl": "https://www.focusfeatures.com/asteroid-city",
+    "qualityRating": { "ratingsBody": "TMS", "value": "2.5" },
+    "ratings": [{ "body": "Motion Picture Association", "code": "PG-13" }],
+    "advisories": ["Adult Situations", "Nudity"],
+    "runTime": "PT01H45M",
     "preferredImage": {
       "width": "240",
       "height": "360",
-      "uri": "assets/p22503311_v_v8_ab.jpg?w=240&h=360",
+      "uri": "assets/p22648609_v_v12_ac.jpg?w=240&h=360",
       "category": "VOD Art",
       "text": "yes",
       "primary": "true"
     },
     "showtimes": [
       {
-        "theatre": { "id": "2450", "name": "SBIFF Riviera Theatre" },
-        "dateTime": "2023-07-20T14:00",
-        "barg": false
-      }
-    ]
-  },
-  {
-    "tmsId": "MV020227510000",
-    "rootId": "24767916",
-    "subType": "Feature Film",
-    "title": "The Young Imam",
-    "releaseYear": 2022,
-    "releaseDate": "2022",
-    "titleLang": "en",
-    "descriptionLang": "en",
-    "entityType": "Movie",
-    "genres": ["Drama"],
-    "longDescription": "A young man in his 20s becomes the inspiring imam of a humble Muslim community in France, but he struggles between his mother's wishes for him and his true calling.",
-    "shortDescription": "A young man in his 20s struggles between his mother's wishes for him and his true calling.",
-    "topCast": ["Abdulah Sissoko", "Hady Berthe", "Issaka Sawadogo"],
-    "directors": ["Kim Chapiron"],
-    "runTime": "PT01H38M",
-    "preferredImage": { "uri": "tvbanners/generic/generic_tvbanners_v5.png" },
-    "showtimes": [
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-21T14:45",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=216989&d=2023-07-21"
+      },
       {
-        "theatre": { "id": "2450", "name": "SBIFF Riviera Theatre" },
-        "dateTime": "2023-07-20T17:15",
-        "barg": false
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-21T17:30",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=216989&d=2023-07-21"
+      },
+      {
+        "theatre": { "id": "2868", "name": "Metro 4 Theatre" },
+        "dateTime": "2023-07-21T20:15",
+        "quals": "Closed Captioned|Reserved",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYH&m=216989&d=2023-07-21"
       }
     ]
   },
@@ -823,7 +689,49 @@
     "showtimes": [
       {
         "theatre": { "id": "2450", "name": "SBIFF Riviera Theatre" },
-        "dateTime": "2023-07-20T19:30",
+        "dateTime": "2023-07-21T14:30",
+        "quals": "Digital",
+        "barg": false
+      },
+      {
+        "theatre": { "id": "2450", "name": "SBIFF Riviera Theatre" },
+        "dateTime": "2023-07-21T19:30",
+        "quals": "Digital",
+        "barg": false
+      }
+    ]
+  },
+  {
+    "tmsId": "MV000082920000",
+    "rootId": "4839",
+    "subType": "Feature Film",
+    "title": "Contempt",
+    "releaseYear": 1963,
+    "releaseDate": "1963-12-18",
+    "titleLang": "en",
+    "descriptionLang": "en",
+    "entityType": "Movie",
+    "genres": ["Drama"],
+    "longDescription": "A philistine in the art film business, Jeremy Prokosch (Jack Palance) is a producer unhappy with the work of his director. Prokosch has hired Fritz Lang (as himself) to direct an adaptation of \"The Odyssey,\" but when it seems that the legendary filmmaker is making a picture destined to bomb at the box office, he brings in a screenwriter (Michel Piccoli) to energize the script. The professional intersects with the personal when a rift develops between the writer and his wife (Brigitte Bardot).",
+    "shortDescription": "A film producer (Jack Palance) covets his new screenwriter's sexy wife (Brigitte Bardot).",
+    "topCast": ["Brigitte Bardot", "Jack Palance", "Michel Piccoli"],
+    "directors": ["Jean-Luc Godard"],
+    "qualityRating": { "ratingsBody": "TMS", "value": "3" },
+    "advisories": ["Adult Situations", "Nudity"],
+    "runTime": "PT01H43M",
+    "preferredImage": {
+      "width": "240",
+      "height": "360",
+      "uri": "assets/p4839_v_v12_ah.jpg?w=240&h=360",
+      "category": "VOD Art",
+      "text": "yes",
+      "primary": "true"
+    },
+    "showtimes": [
+      {
+        "theatre": { "id": "2450", "name": "SBIFF Riviera Theatre" },
+        "dateTime": "2023-07-21T17:00",
+        "quals": "Digital",
         "barg": false
       }
     ]
@@ -863,10 +771,20 @@
           "id": "2678",
           "name": "The Hitchcock Cinema & Public House"
         },
-        "dateTime": "2023-07-20T16:30",
+        "dateTime": "2023-07-21T13:05",
         "quals": "Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=228179&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=228179&d=2023-07-21"
+      },
+      {
+        "theatre": {
+          "id": "2678",
+          "name": "The Hitchcock Cinema & Public House"
+        },
+        "dateTime": "2023-07-21T19:30",
+        "quals": "Closed Captioned",
+        "barg": false,
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=228179&d=2023-07-21"
       }
     ]
   },
@@ -903,20 +821,10 @@
           "id": "2678",
           "name": "The Hitchcock Cinema & Public House"
         },
-        "dateTime": "2023-07-20T16:45",
+        "dateTime": "2023-07-21T16:20",
         "quals": "Closed Captioned",
         "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=232877&d=2023-07-20"
-      },
-      {
-        "theatre": {
-          "id": "2678",
-          "name": "The Hitchcock Cinema & Public House"
-        },
-        "dateTime": "2023-07-20T19:20",
-        "quals": "Closed Captioned",
-        "barg": false,
-        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=232877&d=2023-07-20"
+        "ticketURI": "http://www.fandango.com/tms.asp?t=AAGYJ&m=232877&d=2023-07-21"
       }
     ]
   }
