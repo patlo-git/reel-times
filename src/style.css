@@ -38,7 +38,6 @@ body {
   align-items: center;
   align-items: center;
   margin: 0 3rem;
-  /* padding: 0 1.5rem; */
 }
 
 #header > a {
@@ -109,6 +108,10 @@ body {
   width: 105px;
   height: 158px;
   background-color: hsl(0, 0%, 20%);
+}
+
+.movie-image {
+  max-width: 100%;
 }
 
 .times-wrapper {

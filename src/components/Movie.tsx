@@ -1,6 +1,7 @@
 import React from "react";
 import { MovieTimesButtons } from "./MovieTimes";
 import { MovieProps } from "../types";
+import { movieList } from "../mocks/TMDBData";
 
 const Movie: React.FC<MovieProps> = (props) => {
   const { tmsId, title, genres, ratings, runTime, showtimes, releaseYear } =
@@ -22,7 +23,16 @@ const Movie: React.FC<MovieProps> = (props) => {
   });
 
   const amenity = amenities[0];
-  console.log("amenity: ", amenity.props.children);
+
+  const getArt = () => {
+    const movie = movieList.find((movie) => movie.id === tmsId);
+
+    return movie && movie.url
+      ? movie.url
+      : "https://image.tmdb.org/t/p/w300/5j1JT3Ut7k68Wy2dKGzgP0eAw9v.jpg";
+  };
+
+  const moviePoster = getArt();
 
   return (
     <div className="movie">
@@ -51,7 +61,18 @@ const Movie: React.FC<MovieProps> = (props) => {
           </>
         </div>
       </div>
-      <div className="movie-poster"></div>
+      {/* pull in movie image from TMDB cache based on movie id */}
+      <div className="movie-poster">
+        <img
+          src={
+            moviePoster
+              ? moviePoster
+              : "https://image.tmdb.org/t/p/w300/5j1JT3Ut7k68Wy2dKGzgP0eAw9v.jpg"
+          }
+          alt=""
+          className="movie-image"
+        />
+      </div>
     </div>
   );
 };
