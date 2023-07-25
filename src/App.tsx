@@ -4,6 +4,7 @@ import Theater from "./components/Theater";
 import FilterMenu from "./components/Filter";
 import MovieDB from "./mocks/MovieDB.json";
 import { MovieAPIProps, TheaterProps } from "./types";
+import { blueLong } from "./assets";
 
 const App = () => {
   const movieAPIData: MovieAPIProps[] = MovieDB;
@@ -48,11 +49,16 @@ const App = () => {
       <Header />
       <Theater movies={theaterData} />
       <FilterMenu />
-      <div id="footer">
-        <span className="TMDB-text">
-          This product uses the TMDB API but is not endorsed or certified by
-          TMDB.
-        </span>
+      <div id="footer-wrapper">
+        <div className="footer-container">
+          <span className="TMDB-text">
+            This product uses the TMDB API but is not endorsed or certified by
+            TMDB.
+          </span>
+          <a href="https://www.themoviedb.org" target="_blank" rel="noreferrer">
+            <img className="TMDB-logo" src={blueLong} alt="" />
+          </a>
+        </div>
       </div>
     </>
   );

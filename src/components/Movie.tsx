@@ -82,15 +82,7 @@ const Movie: React.FC<MovieProps> = (props) => {
           )}{" "}
           | {convertTime} | {releaseYear} | {firstTwoGenres} | {amenity}{" "}
           {newReview ? newReview : "NA"}{" "}
-          {newReview && (
-            <a
-              href="https://www.themoviedb.org"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img className="TMDB-logo" src={blueShort} alt="" />
-            </a>
-          )}
+          {newReview && <img className="TMDB-logo" src={blueShort} alt="" />}
         </h3>
         <div className="times-wrapper">
           <>
