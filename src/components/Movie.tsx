@@ -1,7 +1,8 @@
 import React from "react";
 import { MovieTimesButtons } from "./MovieTimes";
 import { MovieProps } from "../types";
-import { movieList } from "../mocks/TMDBData";
+import { MovieList } from "../mocks/TMDBData";
+import { blueShort } from "../assets";
 
 const Movie: React.FC<MovieProps> = (props) => {
   const { tmsId, title, genres, ratings, runTime, showtimes, releaseYear } =
@@ -24,8 +25,41 @@ const Movie: React.FC<MovieProps> = (props) => {
 
   const amenity = amenities[0];
 
+  const getReview = () => {
+    const movie = MovieList.find((movie) => movie.id === tmsId);
+
+    if (movie && movie?.review) {
+      const review = movie.review;
+
+      if (Number.isNaN(movie?.review)) {
+        console.log("NaN");
+        return "";
+      } else {
+        const splitReview = review.split(".");
+        const fractional = splitReview[1];
+        if (fractional) {
+          if (fractional.length < 2) {
+            return review;
+          } else {
+            const fractionalToTenth = fractional.slice(0, 2);
+
+            const roundedFraction = Math.round(
+              parseInt(fractionalToTenth) / 10
+            ).toString();
+
+            splitReview.splice(1, 1, ".", roundedFraction).join("");
+            return splitReview;
+          }
+        }
+      }
+      return review + ".0";
+    }
+  };
+
+  const newReview = getReview();
+
   const getArt = () => {
-    const movie = movieList.find((movie) => movie.id === tmsId);
+    const movie = MovieList.find((movie) => movie.id === tmsId);
 
     return movie && movie.url
       ? movie.url
@@ -47,7 +81,16 @@ const Movie: React.FC<MovieProps> = (props) => {
             <span>NR</span>
           )}{" "}
           | {convertTime} | {releaseYear} | {firstTwoGenres} | {amenity}{" "}
-          {"review"}
+          {newReview ? newReview : "NA"}{" "}
+          {newReview && (
+            <a
+              href="https://www.themoviedb.org"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="TMDB-logo" src={blueShort} alt="" />
+            </a>
+          )}
         </h3>
         <div className="times-wrapper">
           <>

@@ -104,6 +104,10 @@ body {
   margin: 0 8px;
 }
 
+.TMDB-logo {
+  max-width: 20%;
+}
+
 .movie-poster {
   width: 105px;
   height: 158px;
@@ -164,6 +168,23 @@ form input {
   margin: .5rem 0 .25rem 0;
   padding: 4px;
   color: hsla(0, 0%, 20%, 0.75);
+}
+
+#footer {
+  /* margin: auto; */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background: hsla(0, 0%, 20%, 1);
+  color: hsl(355, 0%, 100%);
+  padding: 1.5rem 0;
+  margin: 10rem 0 0 0;
+}
+
+.TMDB-text {
+  display: flex;
+  justify-content: center;
+  font-size: .75rem;
 }
 
 @media screen and (max-width: 768px) {
