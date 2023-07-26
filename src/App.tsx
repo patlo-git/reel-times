@@ -50,7 +50,6 @@ const App = () => {
     <>
       <Header />
       <Theater movies={theaterData} />
-      <FilterMenu />
       <div id="footer-wrapper">
         <div className="footer-container">
           <span className="TMDB-text">

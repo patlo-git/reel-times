@@ -9,7 +9,6 @@ const FilterMenu = () => {
       <form>
         <div>
           <label htmlFor="location">
-            Location
             <input
               id="location"
               value={location}
@@ -19,12 +18,10 @@ const FilterMenu = () => {
               readOnly={true}
             />
           </label>
-          <button disabled={true}>Submit</button>
         </div>
-
+        <span>|</span>
         <div>
           <label htmlFor="date">
-            Date{" "}
             <input
               id="date"
               type="date"
