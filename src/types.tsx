@@ -48,7 +48,6 @@ export interface TheaterProps
     | "descriptionLang"
     | "entityType"
     | "longDescription"
-    | "officialUrl"
     | "qualityRating"
     | "advisories"
     | "preferredImage"
@@ -62,6 +61,7 @@ export interface TheaterProps
   shortDescription: string;
   topCast: string[];
   directors: string[];
+  officialUrl?: string;
   ratings?: Rating[];
   runTime: string;
   showtimes: ShowtimesProps[];
@@ -96,4 +96,5 @@ export interface MovieProps
   runTime: string;
   showtimes: ShowtimesProps[];
   releaseYear: number;
+  officialUrl?: string;
 }

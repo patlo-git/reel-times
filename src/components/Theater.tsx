@@ -12,6 +12,7 @@ interface MoviesByTheater {
 
 const Theater: React.FC<Props> = ({ movies }) => {
   const moviesByTheater: MoviesByTheater = {};
+  const movieIds: string[] = [];
 
   movies.forEach(({ showtimes, ...rest }) => {
     showtimes.forEach((showtime) => {
@@ -38,6 +39,9 @@ const Theater: React.FC<Props> = ({ movies }) => {
         ];
       }
     });
+
+    movieIds.push(`${rest.tmsId} ` + rest.title);
+    console.log(movieIds);
   });
 
   console.log("moviesByTheater: ", moviesByTheater);
@@ -64,6 +68,7 @@ const Theater: React.FC<Props> = ({ movies }) => {
                       runTime,
                       showtimes,
                       releaseYear,
+                      officialUrl,
                     } = movie;
 
                     return (
@@ -76,6 +81,7 @@ const Theater: React.FC<Props> = ({ movies }) => {
                         runTime={runTime}
                         showtimes={showtimes}
                         releaseYear={releaseYear}
+                        officialUrl={officialUrl}
                       />
                     );
                   })}

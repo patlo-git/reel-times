@@ -5,8 +5,16 @@ import { MovieList } from "../mocks/TMDBData";
 import { blueShort } from "../assets";
 
 const Movie: React.FC<MovieProps> = (props) => {
-  const { tmsId, title, genres, ratings, runTime, showtimes, releaseYear } =
-    props;
+  const {
+    tmsId,
+    title,
+    genres,
+    ratings,
+    runTime,
+    showtimes,
+    releaseYear,
+    officialUrl,
+  } = props;
 
   const firstTwoGenres = genres?.slice(0, 2).join(", ");
   const convertTime = runTime.slice(2);
@@ -87,11 +95,14 @@ const Movie: React.FC<MovieProps> = (props) => {
         <div className="times-wrapper">
           <>
             {(showtimes ?? []).map((times, index) => (
-              <MovieTimesButtons
-                key={tmsId + index}
-                time={times.dateTime}
-                link={times.ticketURI ? times.ticketURI : ""}
-              />
+              <div key={tmsId + index} className="button-wrapper-base">
+                <MovieTimesButtons
+                  key={tmsId + index}
+                  time={times.dateTime}
+                  link={times.ticketURI ? times.ticketURI : ""}
+                  movieUrl={officialUrl ? officialUrl : ""}
+                />
+              </div>
             ))}
           </>
         </div>
