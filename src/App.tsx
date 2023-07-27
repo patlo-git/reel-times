@@ -1,7 +1,6 @@
 import { createRoot } from "react-dom/client";
 import Header from "./components/Header";
 import Theater from "./components/Theater";
-import FilterMenu from "./components/Filter";
 import MovieDB from "./mocks/MovieDB.json";
 import { MovieAPIProps, TheaterProps } from "./types";
 import { blueLong } from "./assets";
