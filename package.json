@@ -8,7 +8,7 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
     "dev": "parcel src/index.html",
     "tsc": "npx tsc",
-    "build": "parcel build src/index.html"
+    "build": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "Patrick Lorenz",
