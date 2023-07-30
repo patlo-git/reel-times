@@ -2,14 +2,12 @@
   "name": "reel-times",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/App.js",
-  "source": "src/index.html",
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet",
     "dev": "parcel src/index.html",
     "tsc": "npx tsc",
-    "build": "tsc -p tsconfig.json"
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "Patrick Lorenz",
