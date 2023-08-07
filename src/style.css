@@ -18,24 +18,16 @@ body {
 }
 
 #header-container {
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  height: 56px;
-}
-
-#header-wrapper {
-  max-width: 100%;
-  margin: auto;
+  margin: .75rem 0 .5rem 0;
 }
 
 #header {
   display: flex;
-  max-width: 90%;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  padding: 0 3rem;
+  flex-wrap: wrap;
+  gap: .75rem;
 }
 
 #header > a {
@@ -55,7 +47,7 @@ body {
   box-shadow: 0px 0px 3px #aaa, -0px -0px 3px #fff;
   border-radius: 2rem;
   background: hsl(355, 0%, 96%);
-  padding: .25rem 1rem;
+  padding: .5rem .5rem;
   line-height: 1px;
   display: flex;
   gap: .6rem;
@@ -93,7 +85,7 @@ form input {
 .theater-container {
   display: inline-block;
   max-width: 100%;
-  margin: 1rem;
+  margin: .5rem 1rem;
 }
 
 .theater-name-wrapper {
@@ -104,8 +96,8 @@ form input {
   ;
 }
 
-.theater-name-wrapper > h1 {
-  margin: auto auto auto 16px;
+.theater-name {
+  margin: auto auto auto .5rem;
 }
 
 .movies-wrapper {
@@ -132,12 +124,12 @@ form input {
   width: 79%;
 }
 
-.movie-info > h2 {
+.movie-title {
   margin: 8px auto 4px auto;
 }
 
 .amenities {
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 100;
   margin: 0 .5rem;
 }
@@ -221,6 +213,12 @@ form input {
 }
 
 @media screen and (max-width: 768px) {
+  .theater-container {
+    max-width: 100%;
+    margin: .5rem auto;
+    padding: 0 12px;
+  }
+
   .movie {
     flex-basis: 100%;
     max-width: 100%;

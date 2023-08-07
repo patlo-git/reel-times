@@ -54,7 +54,7 @@ const Theater: React.FC<Props> = ({ movies }) => {
         return (
           <div key={theaterId}>
             <div className="theater-name-wrapper">
-              <h1>{theaterName}</h1>
+              <h2 className="theater-name">{theaterName}</h2>
             </div>
             <div className="movies-container">
               <div className="movies-wrapper">

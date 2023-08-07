@@ -79,8 +79,8 @@ const Movie: React.FC<MovieProps> = (props) => {
   return (
     <div className="movie">
       <div className="movie-info">
-        <h2>{title}</h2>
-        <h3 className="amenities">
+        <h3 className="movie-title">{title}</h3>
+        <h4 className="amenities">
           {(ratings ?? []).length > 0 ? (
             (ratings ?? []).map((ratingItem, index) => (
               <span key={tmsId + index}>{ratingItem.code}</span>
@@ -91,7 +91,7 @@ const Movie: React.FC<MovieProps> = (props) => {
           | {convertTime} | {releaseYear} | {firstTwoGenres} | {amenity}{" "}
           {newReview ? newReview : "NA"}{" "}
           {newReview && <img className="TMDB-logo" src={blueShort} alt="" />}
-        </h3>
+        </h4>
         <div className="times-wrapper">
           <>
             {(showtimes ?? []).map((times, index) => (
