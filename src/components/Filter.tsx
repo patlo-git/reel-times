@@ -19,7 +19,7 @@ const FilterMenu = () => {
             />
           </label>
         </div>
-        <span>|</span>
+        <span className="divider"></span>
         <div>
           <label htmlFor="date">
             <input

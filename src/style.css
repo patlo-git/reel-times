@@ -22,29 +22,27 @@ body {
   left: 0px;
   right: 0px;
   height: 56px;
-  background-color: hsl(0, 0%, 20%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
+}
+
+#header-wrapper {
+  max-width: 100%;
+  margin: auto;
 }
 
 #header {
   display: flex;
-  width:100%;
-  gap: 16px;
+  max-width: 90%;
   justify-content: space-between;
   align-items: center;
-  margin: 0 3rem;
+  margin: 0 auto;
+  padding: 0 3rem;
 }
 
 #header > a {
   text-decoration: none;
-  color: hsl(180deg, 0%, 95%);
+  color: hsl(0, 0%, 20%);
   font-family: 'Bungee Shade', cursive, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.5rem;
-  line-height: 1rem;
 }
 
 .search-params {
@@ -54,6 +52,7 @@ body {
 }
 
 .search-params form {
+  box-shadow: 0px 0px 3px #aaa, -0px -0px 3px #fff;
   border-radius: 2rem;
   background: hsl(355, 0%, 96%);
   padding: .25rem 1rem;
@@ -63,6 +62,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.search-params form:hover {
+  box-shadow: 0px 0px 4px #aaa, -0px -0px 4px #fff;
 }
 
 form input {
@@ -78,6 +81,13 @@ form input {
 #date {
   padding-left: .75rem;
   padding-right: 0;
+}
+
+.divider {
+  flex: 0 0 1px;
+  height: 24px;
+  width: 1px;
+  background-color: hsla(0, 0%, 20%, 0.75);
 }
 
 .theater-container {
