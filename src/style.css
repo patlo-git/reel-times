@@ -38,9 +38,7 @@ body {
 }
 
 .search-params {
-  min-width: 300px;
-  display: flex;
-  flex-direction: row;
+  max-width: 300px;
 }
 
 .search-params form {
@@ -50,7 +48,7 @@ body {
   padding: .5rem .5rem;
   line-height: 1px;
   display: flex;
-  gap: .6rem;
+  gap: .25rem;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -213,6 +211,10 @@ form input {
 }
 
 @media screen and (max-width: 768px) {
+  #header > a {
+    font-size: 2rem;
+  }
+  
   .theater-container {
     max-width: 100%;
     margin: .5rem auto;
