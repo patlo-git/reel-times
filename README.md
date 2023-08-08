@@ -6,7 +6,7 @@
 
 ### See you at the movies!
 
-![Screenshot of ReelTimes movie app showing local theaters and their movie listings](/ReelTimesScreenshot.png)
+![Screenshot of ReelTimes movie app showing local theaters and their movie listings](/ReelTimesScreenRecording.gif)
 
 ## Getting Started
 
