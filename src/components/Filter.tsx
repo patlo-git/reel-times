@@ -2,7 +2,14 @@ import { useState } from "react";
 
 const FilterMenu = () => {
   const [location, setLocation] = useState("Santa Barbara, CA");
-  const todayDate = new Date().toISOString().slice(0, 10);
+
+  let localDate = new Date();
+
+  const offset = localDate.getTimezoneOffset();
+
+  localDate = new Date(localDate.getTime() - offset * 60 * 1000);
+
+  const todayDate = localDate.toISOString().slice(0, 10);
 
   return (
     <div className="search-params">
