@@ -17,7 +17,7 @@ const Header: React.FC<HeaderProps> = ({ toggleView, viewType }) => {
                   ? "theater-view view-toggle"
                   : "movie-view view-toggle"
               }
-              aria-pressed={false}
+              aria-pressed={!viewType}
               onClick={toggleView}
             >
               {viewType ? "View Movies" : "View Theaters"}
