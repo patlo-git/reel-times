@@ -54,14 +54,6 @@ const App = () => {
     return <div>Loading...</div>;
   }
 
-  function ViewTheaters() {
-    return <Theater movies={theaterData} />;
-  }
-
-  function viewMovies() {
-    return <MovieView movies={theaterData} /> || <h1>Movies Go Here</h1>;
-  }
-
   return (
     <>
       <Header toggleView={toggleView} viewType={isDefaultView} />
