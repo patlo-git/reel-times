@@ -4,8 +4,16 @@ import Theater from "./components/Theater";
 import MovieDB from "./mocks/MovieDB.json";
 import { MovieAPIProps, TheaterProps } from "./types";
 import { blueLong } from "./assets";
+import { useState } from "react";
+import MovieView from "./components/MoviesPage";
 
 const App = () => {
+  const [isDefaultView, setIsDefaultView] = useState(true);
+
+  const toggleView = () => {
+    setIsDefaultView((prevState) => !prevState);
+  };
+
   const movieAPIData: MovieAPIProps[] = MovieDB;
 
   const theaterData: TheaterProps[] = movieAPIData.map(
@@ -45,10 +53,23 @@ const App = () => {
   if (!movieAPIData) {
     return <div>Loading...</div>;
   }
+
+  function ViewTheaters() {
+    return <Theater movies={theaterData} />;
+  }
+
+  function viewMovies() {
+    return <MovieView movies={theaterData} /> || <h1>Movies Go Here</h1>;
+  }
+
   return (
     <>
-      <Header />
-      <Theater movies={theaterData} />
+      <Header toggleView={toggleView} viewType={isDefaultView} />
+      {isDefaultView ? (
+        <Theater movies={theaterData} />
+      ) : (
+        <MovieView movies={theaterData} />
+      )}
       <div id="footer-wrapper">
         <div className="footer-container">
           <span className="TMDB-text">
