@@ -115,7 +115,7 @@ const Movie: React.FC<MovieProps> = (props) => {
               ? moviePoster
               : "https://image.tmdb.org/t/p/w300/5j1JT3Ut7k68Wy2dKGzgP0eAw9v.jpg"
           }
-          alt=""
+          alt={`Movie Poster for ${title}`}
           className="movie-image"
         />
       </div>
