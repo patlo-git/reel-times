@@ -1,10 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { MovieTimesButtons } from "./MovieTimes";
 import { MovieProps } from "../types";
 import { MovieList } from "../mocks/TMDBData";
 import { blueShort } from "../assets";
+import YoutubeEmbed from "./YoutubeEmbed";
+import Modal from "./Modal";
+import useModal from "./useModal";
 
 const Movie: React.FC<MovieProps> = (props) => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    if (windowWidth > 768) closeModal();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  });
+
   const {
     tmsId,
     title,
@@ -15,6 +34,14 @@ const Movie: React.FC<MovieProps> = (props) => {
     releaseYear,
     officialUrl,
   } = props;
+
+  const {
+    showModal,
+    openModal,
+    closeModal,
+    triggerElementRef,
+    modalHeadingRef,
+  } = useModal();
 
   const firstTwoGenres = genres?.slice(0, 2).join(", ");
   const convertTime = runTime.slice(2);
@@ -109,16 +136,41 @@ const Movie: React.FC<MovieProps> = (props) => {
       </div>
       {/* pull in movie image from TMDB cache based on movie id */}
       <div className="movie-poster">
-        <img
-          src={
-            moviePoster
-              ? moviePoster
-              : "https://image.tmdb.org/t/p/w300/5j1JT3Ut7k68Wy2dKGzgP0eAw9v.jpg"
-          }
-          alt={`Movie Poster for ${title}`}
-          className="movie-image"
-        />
+        <button
+          aria-haspopup="dialog"
+          aria-expanded={showModal ? "true" : "false"}
+          onClick={openModal}
+          className="movie-img"
+          disabled={windowWidth > 768}
+        >
+          <img
+            data-open-dialog
+            src={
+              moviePoster
+                ? moviePoster
+                : "https://image.tmdb.org/t/p/w300/5j1JT3Ut7k68Wy2dKGzgP0eAw9v.jpg"
+            }
+            alt={`Movie Poster for ${title}`}
+            className="movie-img"
+          />
+        </button>
       </div>
+
+      <Modal
+        showModal={showModal}
+        onClose={closeModal}
+        triggerElementRef={triggerElementRef}
+        modalHeadingRef={modalHeadingRef}
+      >
+        <div
+          ref={modalHeadingRef}
+          id="accessible-modal-heading"
+          className="modal-trailer"
+        >
+          <YoutubeEmbed embedId="pBk4NYhWNMM" />
+        </div>
+        <p>Movie times</p>
+      </Modal>
     </div>
   );
 };
