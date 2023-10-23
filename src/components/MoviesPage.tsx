@@ -86,7 +86,7 @@ const MovieView: React.FC<Props> = ({ movies }) => {
           </>
         </div>
         <div className="now-showing-trailers">
-          <YoutubeEmbed embedId="pBk4NYhWNMM" />
+          <YoutubeEmbed embedId="uYPbbksJxIg" />
         </div>
       </div>
     </div>

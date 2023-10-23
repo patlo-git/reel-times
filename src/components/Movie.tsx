@@ -153,6 +153,7 @@ const Movie: React.FC<MovieProps> = (props) => {
             alt={`Movie Poster for ${title}`}
             className="movie-img"
           />
+          <i className="fa-solid fa-play"></i>
         </button>
       </div>
 
@@ -167,7 +168,7 @@ const Movie: React.FC<MovieProps> = (props) => {
           id="accessible-modal-heading"
           className="modal-trailer"
         >
-          <YoutubeEmbed embedId="pBk4NYhWNMM" />
+          <YoutubeEmbed embedId="uYPbbksJxIg" />
         </div>
         <p>Movie times</p>
       </Modal>
